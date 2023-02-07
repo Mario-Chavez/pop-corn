@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Disfruta  de películas y series populares. Puedes verlas en cualquier momento y en cualquier lugar. Suscribite ahora!"
+    />
+    <meta
+      name="keywords"
+      content="Películas,
+      Series,
+      Contenido en línea,
+      Películas recomendadas,
+      Series populares,
+      Cine en línea,
+      Ver películas,
+      Ver series,
+      Contenido exclusivo,
+      Nuevas películas,
+      Nuevas series,
+      Biblioteca de películas,
+      Biblioteca de series,
+      Cine en casa,
+      Entretenimiento en línea,
+      Reproducción en línea,
+      Contenido en alta definición,
+      Películas de acción,
+      Películas de terror,
+      Películas de comedia,
+      Películas dramáticas,
+      Películas animadas,
+      Películas de ciencia ficción,
+      Películas clásicas,
+      Series de televisión,
+      Series de drama,
+      Series de comedia,
+      Series de ciencia ficción,
+      Series animadas,
+      Series de suspenso,
+      Documentales,
+      Programación infantil,
+      Suscripción en línea"
+    />
+    <meta
+      name="author"
+      content="Maria Juarez Avila, Rodrigo Aunis, Federico Luciano Ledesma, Tadeo Muñoz, Mario Chavez, Cecilia Fernández, Popcorn"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../img/icono.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Popcorn</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg nav-bg-color navbar-dark position-fixed w-100 z-1 py-3 py-md-2"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="../index.html">
+            <img
+              src="../img/logo-popcorn.png"
+              class="logo-nav"
+              alt="Logo popcorn"
+            />
+          </a>
+          <div
+            class="nav-item li-suscribete mx-lg-2 d-lg-none d-lg-block btn-suscripcion-sm p-1 m-0"
+          >
+            <a class="text-light text-decoration-none" href="suscripcion.html"
+              >Suscribete</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#categorias"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Terror</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Documentales</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Ficcion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Historia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Romance</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Suspenso</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="error-404.html"
+                      >Accion</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="categoria-drama.html"
+                      >Drama</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="categoria.html"
+                      >Comedia</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre-nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn-ingresar text-light"
+                  data-toggle="modal"
+                  data-target="#loginModal"
+                  >Ingresar</a
+                >
+              </li>
+              <li
+                class="nav-item li-suscribete mx-lg-2 d-none d-sm-block d-md-none d-lg-block"
+              >
+                <a
+                  class="nav-link nav-suscribete-color text-light"
+                  href="suscripcion.html"
+                  >Suscribete</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark btn-link border-0" type="submit">
+                <i class="bi bi-search text-light"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Modal para el formulario de inicio de sesión -->
+      <div
+        class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="loginModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document" style="max-width: 447px">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title font-weight-bold" id="loginModalLabel">
+                Iniciar sesión
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <section>
+              <div class="modal-body">
+                <!-- Formulario de inicio de sesión -->
+                <form>
+                  <div class="form-group font-weight-bold">
+                    <label for="emailInput">Correo electrónico</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailInput"
+                      minlength="3"
+                      maxlength="100"
+                      required
+                      aria-describedby="emailHelp"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >Nunca compartiremos tu correo con nadie más.</small
+                    >
+                  </div>
+                  <div class="form-group font-weight-bold">
+                    <label for="passwordInput">Contraseña</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passwordInput"
+                      minlength="3"
+                      maxlength="100"
+                      required
+                    />
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="rememberMeInput"
+                    />
+                    <label class="form-check-label" for="rememberMeInput"
+                      >Recuérdame</label
+                    >
+                  </div>
+                  <section>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <hr />
+                        </div>
+                        <div class="col-6 text-center">
+                          <div class="h8 text-sx">¿Nuevo en Popcorn?</div>
+                        </div>
+                        <div class="col-3">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <br />
+                      <a
+                        href="suscripcion.html"
+                        type="button"
+                        id="my-button"
+                        class="my-margin btn btn-lg w-100 btn-dark"
+                      >
+                        Crea tu Cuenta
+                      </a>
+                      <br />
+                    </div>
+                  </section>
+                  <section>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="button-mod btn my-background-black"
+                        data-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button
+                        type="submit"
+                        class="button-mod btn my-background-blue"
+                      >
+                        Iniciar sesión
+                      </button>
+                    </div>
+                  </section>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Imagen, nombre y descripcion-->
+      <section class="container mt-4">
+        <article class="row">
+          <!--Imagen-->
+          <div class="col-7 col-md-5 col-lg-5 white">
+            <img
+              src="../img-correcion/22.png"
+              class="img-fluid  h-100 object-md-fit-cover object-fit-contain"
+              alt="Portada 22 jump street"
+            />
+          </div>
+          <!--Titulo-->
+          <div class="col-5 col-md-7 col-lg-7 white">
+            <div class="row">
+              <div class="col-12">
+                <h5 class="card-title white mb-2 font-size text-start">
+                  22 Jump Street
+                </h5>
+                <div class="d-flex yellow fs-6 mt-md-3 mt-lg-5">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  <p class="ms-1 m-0 p-0">70%</p>
+                </div>
+                <small class="gray">
+                  <p class="my-1">Duracion: 1h 51min</p>
+                  <p class="mb-1">Año: 2014</p>
+                </small>
+              </div>
+              <div class="d-flex mt-md-3 mt-lg-0">
+                <i class="bi bi-share-fill me-2"></i>
+                <p class="link-primary me-2 m-0 pb-1">Compartir</p>
+              </div>
+              <div class="d-flex flex-wrap align-items-center">
+                <b class="me-2">+18</b>
+                <a
+                  href="error-404.html"
+                  class="bi bi-play-circle-fill icon-play-color fs-1"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Descripcion-->
+          <div class="container">
+            <div>
+              <p class="fs-6 white mt-2">
+                La pareja de policías formada por Schmidt y Jenko vuelve a la
+                carga después del éxito de la operación contra la red de
+                narcotraficantes en el instituto.
+              </p>
+              <button
+                type="button"
+                class="boton-leer btn btn-primary mt-5"
+                data-toggle="collapse"
+                data-target="#demo"
+              >
+                Leer mas
+              </button>
+              <div id="demo" class="collapse">
+                <div class="p-4">
+                  <p class="fs-6 white">
+                    Después de la exitosa operación contra el narcotráfico en
+                    una escuela, los oficiales Schmidt (Jonah Hill) y Jenko
+                    (Channing Tatum), deben infiltrase, esta vez, en una
+                    Universidad. A pesar de que la relación entre ambos ha
+                    mejorado mucho, cuando llegan al campus ambos toman
+                    diferentes caminos inesperados: Jenko encuentra a su alma
+                    gemela en el equipo de fútbol y se une a este, mientras que
+                    Schmidt se adentra en el teatro bohemio gracias a una joven
+                    que conoce durante una obra de teatro. Ambos deberán
+                    descubrir si realmente son dos niños de instituto
+                    "creciditos" que van a la Universidad, o si son capaces de
+                    mantener una relación madura y profesional como compañeros
+                    de equipo policial.
+                  </p>
+                  <p>
+                    <small class="gray"
+                      >Genero: Acción, Comedia, Policial <br />
+                      Actores: Channing Tatum (Greg Jenko) Jonah Hill (Morton
+                      Schmidt) Ice Cube (Capitán Dickson) Dave Franco (Eric
+                      Molsen) Amber Stevens (Maya) Nick Offerman (Deputy Chief
+                      Hardy) Rob Riggle (Sr. Walter) Jillian Bell (Mercedes)
+                      Richard Grieco (Booker) Wyatt Russell (Zook) Diplo (Spring
+                      Break DJ) John Ortiz (Traficante)</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--Reproductor-->
+      <section class="my-4">
+        <article class="container">
+          <div class="btn btn-primary">
+            <div class="d-flex">
+              <i class="bi bi-film me-2"></i>
+              <p class="p-0 m-0">Trailer</p>
+            </div>
+          </div>
+          <div class="my-2">
+            <iframe
+              width="300vh"
+              height="500vh"
+              src="https://www.youtube.com/embed/WdmKqyVy2A0"
+              title="COMANDO ESPECIAL 2 (22 Jump Street) - Trailer A Subtitulado español"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              class="w-100"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </section>
+      <!--Similares pantallas pequeñas-->
+      <section class="my-5 d-md-none d-md-block">
+        <h2 class="display-6 ms-4 white font-size">Similares</h2>
+        <article class="container-fluid">
+          <div id="carousel-similares-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/placa-de-acero.png"
+                    class="card-img-top"
+                    alt="Portada Placa de acero"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/spia-por-accidente.png"
+                    class="card-img-top"
+                    alt="Portada spia por casualidad"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/taxi-alta-tension.png"
+                    class="card-img-top"
+                    alt="Portada Taxi 2 - alta tensión"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/un-chofer-en-apuros.png"
+                    class="card-img-top"
+                    alt="Portada un chofer en apuro"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/los-locos-del-cannonball-3.png"
+                    class="card-img-top"
+                    alt="Portada los locos del cannonbal 3"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/22/skiptrace.png"
+                    class="card-img-top"
+                    alt="Portada skiptrace"
+                  />
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-similares-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-similares-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--similares pantallas grandes y medianas-->
+      <section class="my-5 d-none d-sm-block">
+        <h2 class="display-6 ms-4 white font-size">Similares</h2>
+        <article class="container-fluid">
+          <div id="carousel-similares" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/placa-de-acero.png"
+                          class="card-img-top"
+                          alt="Portada placa de acero"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/spia-por-accidente.png"
+                          class="card-img-top"
+                          alt="Portada spia por casualidad"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/taxi-alta-tension.png"
+                          class="card-img-top"
+                          alt="Portada Taxi 2 - alta tensión"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/un-chofer-en-apuros.png"
+                          class="card-img-top"
+                          alt="Portada un chofer en apuro"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/los-locos-del-cannonball-3.png"
+                          class="card-img-top"
+                          alt="Portada los locos del cannonball 3"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/22/skiptrace.png"
+                          class="card-img-top"
+                          alt="Portada skiptrace"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-similares"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-similares"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Otras peliculas pantallas pequeñas-->
+      <section class="my-5 d-md-none d-md-block">
+        <h2 class="display-6 ms-4 white font-size">Otras peliculas</h2>
+        <article class="container-fluid">
+          <div id="carousel-peliculas-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/ahora-estamos-solos.png"
+                    class="card-img-top"
+                    alt="Portada ahora estamos solos"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/arg-1985.png"
+                    class="card-img-top"
+                    alt="Portada Argentina 1985"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/killer-gunther.png"
+                    class="card-img-top"
+                    alt="Portada killer gunther"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/mentes-maestras.png"
+                    class="card-img-top"
+                    alt="Portada Mentes maestras"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/luna-de-miel.png"
+                    class="card-img-top"
+                    alt="Portada luna de miel"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="error-404.html">
+                  <img
+                    src="../img-correcion/el-experimento.png"
+                    class="card-img-top"
+                    alt="Portada el experimento"
+                  />
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-peliculas-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-peliculas-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Otras peliculas pantallas grandes y medianas-->
+      <section class="my-5 d-none d-sm-block">
+        <h2 class="display-6 ms-4 white font-size">Otras Peliculas</h2>
+        <article class="container-fluid">
+          <div id="carousel-peliculas" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/ahora-estamos-solos.png"
+                          class="card-img-top"
+                          alt="Portada ahora estamos solos"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/arg-1985.png"
+                          class="card-img-top"
+                          alt="Portada Argentina 1985"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/killer-gunther.png"
+                          class="card-img-top"
+                          alt="Portada killer gunther"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/mentes-maestras.png"
+                          class="card-img-top"
+                          alt="Portada mentes maestras"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/luna-de-miel.png"
+                          class="card-img-top"
+                          alt="Portada luna de miel"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="error-404.html">
+                        <img
+                          src="../img-correcion/el-experimento.png"
+                          class="card-img-top"
+                          alt="Portada el experimento"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-peliculas"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-peliculas"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <div class="text-center my-4 volver-arriba-hover">
+        <a href="#" class="text-decoration-none volver-arriba-color"
+          >Volver arriba<i class="bi bi-chevron-compact-up mx-1"></i
+        ></a>
+      </div>
+    </main>
+    <footer class="footer-bg-color">
+      <article class="container-fluid redes-sociales-bg text-center fs-4 p-3">
+        <div class="container d-flex justify-content-around redes-sociales-w">
+          <a
+            href="error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+          <a
+            href="error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a
+            href="error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </article>
+      <section class="container">
+        <article class="row align-items-center my-4">
+          <aside class="col-lg-4 my-md-5">
+            <div class="text-center">
+              <img
+                src="../img/logo-popcorn.png"
+                alt="logo de RollCode Video"
+                class="w-100 h-auto m-0"
+              />
+            </div>
+          </aside>
+          <aside class="col-md-6 col-lg-4 text-center">
+            <ul class="p-0">
+              <li>
+                <a
+                  href="sobre-nosotros.html"
+                  class="text-decoration-none text-secondary"
+                  >¿Quienes Somos?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Politicas de privacidad</a
+                >
+              </li>
+            </ul>
+          </aside>
+          <aside class="col-md-6 col-lg-4 text-center">
+            <ul class="p-0">
+              <li>
+                <a
+                  href="contacto.html"
+                  class="text-decoration-none text-secondary"
+                  >¿Tenes dudas? Contactanos!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Politicas de cookies</a
+                >
+              </li>
+              <li>
+                <a
+                  href="error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Trabajá con nosotros</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </article>
+        <hr class="text-secondary fs-5" />
+        <p class="text-center text-secondary">
+          Popcorn&copy; Todos los derechos reservados
+        </p>
+      </section>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>

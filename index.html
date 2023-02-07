@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Disfruta  de películas y series populares. Puedes verlas en cualquier momento y en cualquier lugar. Suscribite ahora!"
+    />
+    <meta
+      name="keywords"
+      content="Películas,
+      Series,
+      Contenido en línea,
+      Películas recomendadas,
+      Series populares,
+      Cine en línea,
+      Ver películas,
+      Ver series,
+      Contenido exclusivo,
+      Nuevas películas,
+      Nuevas series,
+      Biblioteca de películas,
+      Biblioteca de series,
+      Cine en casa,
+      Entretenimiento en línea,
+      Reproducción en línea,
+      Contenido en alta definición,
+      Películas de acción,
+      Películas de terror,
+      Películas de comedia,
+      Películas dramáticas,
+      Películas animadas,
+      Películas de ciencia ficción,
+      Películas clásicas,
+      Series de televisión,
+      Series de drama,
+      Series de comedia,
+      Series de ciencia ficción,
+      Series animadas,
+      Series de suspenso,
+      Documentales,
+      Programación infantil,
+      Suscripción en línea"
+    />
+    <meta
+      name="author"
+      content="Mariana Juarez Avila, Rodrigo Aunins, Federico Luciano Ledesma, Tadeo Muñoz, Mario Chavez, Cecilia Fernández, Popcorn"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="img/icono.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Popcorn</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg nav-bg-color navbar-dark position-fixed w-100 z-1 py-3 py-md-2"
+        id="navbar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="index.html">
+            <img
+              src="img/logo-popcorn.png"
+              class="logo-nav"
+              alt="Logo popcorn"
+            />
+          </a>
+          <div
+            class="nav-item li-suscribete mx-lg-2 d-lg-none d-lg-block btn-suscripcion-sm p-1 m-0"
+          >
+            <a
+              class="text-light text-decoration-none"
+              href="pages/suscripcion.html"
+              >Suscribete</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#categorias"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Terror</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Documentales</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Ficcion</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Historia</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Romance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Suspenso</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/error-404.html"
+                      >Accion</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/categoria-drama.html"
+                      >Drama</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light"
+                      href="pages/categoria.html"
+                      >Comedia</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/sobre-nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn-ingresar text-light"
+                  data-toggle="modal"
+                  data-target="#loginModal"
+                  >Ingresar</a
+                >
+              </li>
+              <li
+                class="nav-item li-suscribete mx-lg-2 d-none d-sm-block d-md-none d-lg-block"
+              >
+                <a
+                  class="nav-link nav-suscribete-color text-light"
+                  href="pages/suscripcion.html"
+                  >Suscribete</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark btn-link border-0" type="submit">
+                <i class="bi bi-search text-light"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Modal para el formulario de inicio de sesión -->
+      <div
+        class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="loginModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document" style="max-width: 447px">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title font-weight-bold" id="loginModalLabel">
+                Iniciar sesión
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <section>
+              <div class="modal-body">
+                <!-- Formulario de inicio de sesión -->
+                <form>
+                  <div class="form-group font-weight-bold">
+                    <label for="emailInput">Correo electrónico</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailInput"
+                      minlength="3"
+                      maxlength="100"
+                      required
+                      aria-describedby="emailHelp"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >Nunca compartiremos tu correo con nadie más.</small
+                    >
+                  </div>
+                  <div class="form-group font-weight-bold">
+                    <label for="passwordInput">Contraseña</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passwordInput"
+                      minlength="3"
+                      maxlength="100"
+                      required
+                    />
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="rememberMeInput"
+                    />
+                    <label class="form-check-label" for="rememberMeInput"
+                      >Recuérdame</label
+                    >
+                  </div>
+                  <section>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <hr />
+                        </div>
+                        <div class="col-6 text-center">
+                          <div class="h8 text-sx">¿Nuevo en Popcorn?</div>
+                        </div>
+                        <div class="col-3">
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <br />
+                      <a
+                        href="pages/suscripcion.html"
+                        type="button"
+                        id="my-button"
+                        class="my-margin btn btn-lg w-100 btn-dark"
+                      >
+                        Crea tu Cuenta
+                      </a>
+                      <br />
+                    </div>
+                  </section>
+                  <section>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="button-mod btn my-background-black"
+                        data-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                      <button
+                        type="submit"
+                        class="button-mod btn my-background-blue"
+                      >
+                        Iniciar sesión
+                      </button>
+                    </div>
+                  </section>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Carousel principal-->
+      <section
+        id="carouselBanner"
+        class="carousel slide box-shadow"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img-correcion/wonder-woman-1984.jpg"
+              class="d-block w-100 carousel-responsive"
+              alt="Portada wonder woman"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img-correcion/the-good-doctor.png"
+              class="d-block w-100 carousel-responsive"
+              alt="Portada the good doctor"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img-correcion/samaritan.png"
+              class="d-block w-100 carousel-responsive"
+              alt="Portada samaritan"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselBanner"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselBanner"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <!--Series populares del momento dispositivos pequeños-->
+      <section class="my-5 d-md-none d-md-block">
+        <h2 class="display-6 ms-4 white font-size">Lo más visto en series</h2>
+        <article class="container-fluid">
+          <div id="carousel-series-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/office.png"
+                    class="card-img-top"
+                    alt="Portada The office"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/detalle-serie.html">
+                  <img
+                    src="img-correcion/los-anillos-del-poder.png"
+                    class="card-img-top"
+                    alt="Portada el señor de los anillos: los anillos del poder"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/kimetsu-anime.png"
+                    class="card-img-top"
+                    alt="Portada kimetsu no yaiba"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/house.png"
+                    class="card-img-top"
+                    alt="Portada Dr. House"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/educando-a-nina.png"
+                    class="card-img-top"
+                    alt="Portada  educando a nina"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/the-walking-dead.png"
+                    class="card-img-top"
+                    alt="Portada the walking dead"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/yugi-oh.png"
+                    class="card-img-top"
+                    alt="Portada yugi oh"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/one-piece.png"
+                    class="card-img-top"
+                    alt="Portada one piece"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/dead-note.png"
+                    class="card-img-top"
+                    alt="Portada dead-note"
+                  />
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-series-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-series-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Series populares del momento dispositivos medianos y grandes-->
+      <section class="my-5 d-none d-sm-block">
+        <h2 class="display-6 ms-4 white font-size">Lo más visto en series</h2>
+        <article class="container-fluid">
+          <div id="carousel-series" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/office.png"
+                          class="card-img-top"
+                          alt="Portada The office"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/detalle-serie.html">
+                        <img
+                          src="img-correcion/los-anillos-del-poder.png"
+                          class="card-img-top"
+                          alt="Portada el señor de los anillos: los anillos del poder"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/kimetsu-anime.png"
+                          class="card-img-top"
+                          alt="Portada kimetsu no yaiba"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/house.png"
+                          class="card-img-top"
+                          alt="Portada Dr. House"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/educando-a-nina.png"
+                          class="card-img-top"
+                          alt="Portada educando a nina"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/the-walking-dead.png"
+                          class="card-img-top"
+                          alt="Portada the walking dead"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/yugi-oh.png"
+                          class="card-img-top"
+                          alt="Portada yugi oh"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/one-piece.png"
+                          class="card-img-top"
+                          alt="Portada one piece"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/dead-note.png"
+                          class="card-img-top"
+                          alt="Portada dead note"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-series"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-series"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Peliculas populares del momento dispositivos pequeños-->
+      <section class="my-5 d-md-none d-md-block">
+        <h2 class="display-6 ms-4 white font-size">
+          Lo más visto en peliculas
+        </h2>
+        <article class="container-fluid">
+          <div id="carousel-peliculas-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/caja-maldita.png"
+                    class="card-img-top"
+                    alt="Portada caja maldita"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/duro-de-cuidar-2.png"
+                    class="card-img-top"
+                    alt="Portada duro de cuidar 2"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/ahora-estamos-solos.png"
+                    class="card-img-top"
+                    alt="Portada ahora estamos solos"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/wonder-woman-1984.jpg"
+                    class="card-img-top"
+                    alt="Portada la mujer maravilla 1984"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/detalle-pelicula.html">
+                  <img
+                    src="img-correcion/22.png"
+                    class="card-img-top"
+                    alt="Portada 22 jump street"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/killer-gunther.png"
+                    class="card-img-top"
+                    alt="Portada Killer gunther"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/mentes-maestras.png"
+                    class="card-img-top"
+                    alt="Portada mentes maestras"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/luna-de-miel.png"
+                    class="card-img-top"
+                    alt="Portada luna de miel"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/el-experimento.png"
+                    class="card-img-top"
+                    alt="Portada el experimento"
+                  />
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-peliculas-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-peliculas-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Peliculas populares del momento dispositivos medianos y grandes-->
+      <section class="my-5 d-none d-sm-block">
+        <h2 class="display-6 ms-4 white font-size">
+          Lo más visto en peliculas
+        </h2>
+        <article class="container-fluid">
+          <div id="carousel-peliculas" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/caja-maldita.png"
+                          class="card-img-top"
+                          alt="Portada caja maldita"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/duro-de-cuidar-2.png"
+                          class="card-img-top"
+                          alt="Portada duro de cuidar 2"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/ahora-estamos-solos.png"
+                          class="card-img-top"
+                          alt="Portada ahora estamos solos"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/wonder-woman-1984.jpg"
+                          class="card-img-top"
+                          alt="Portada wonder woman 1984"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/detalle-pelicula.html">
+                        <img
+                          src="img-correcion/22.png"
+                          class="card-img-top"
+                          alt="Portada 22 jump street"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/killer-gunther.png"
+                          class="card-img-top"
+                          alt="Portada killer gunthert"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/mentes-maestras.png"
+                          class="card-img-top"
+                          alt="Portada mentes maestras"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/luna-de-miel.png"
+                          class="card-img-top"
+                          alt="Portada luna de miel"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/el-experimento.png"
+                          class="card-img-top"
+                          alt="Portada el experimento"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-peliculas"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-peliculas"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Categoías destacadas dispositivos pequeños-->
+      <section class="my-5 d-md-none d-md-block" id="categorias">
+        <h1 class="display-6 ms-4 white font-size">Categorias destacadas</h1>
+        <article class="container-fluid">
+          <div id="carousel-categorias-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pages/error-404.html">
+                  <div
+                    class="card text-bg-dark card-categorias mx-2 item-card categoria-card"
+                  >
+                    <img
+                      src="img-correcion/slider-categorias/terror.png"
+                      class="card-img"
+                      alt="Portada categoria terror"
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Terror</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/documentales.png"
+                      class="card-img"
+                      alt="Portada categoria documentales"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Documental</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/ciencia-ficcion.png"
+                      class="card-img"
+                      alt="Portada categoria ciencia ficcion"
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Ciencia ficción</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/historia.png"
+                      class="card-img"
+                      alt="Portada categoria historia"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Historia</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/romanticas.png"
+                      class="card-img"
+                      alt="Portada categoria romance"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Romance</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/suspenso.png"
+                      class="card-img"
+                      alt="Portada categoria suspenso"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Suspenso</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/accion.png"
+                      class="card-img"
+                      alt="Portada categorias accion"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Acción</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/categoria-drama.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/drama.png"
+                      class="card-img"
+                      alt="Portada categoria drama"
+                    />
+
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Drama</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/categoria.html">
+                  <div class="card text-bg-dark card-categorias mx-2 item-card">
+                    <img
+                      src="img-correcion/slider-categorias/comedia.png"
+                      class="card-img"
+                      alt="Portada categoria comedia"
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Comedia</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-categorias-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-categorias-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Categoías destacadas dispositivos medios y grandes-->
+      <section class="my-5 d-none d-sm-block" id="categorias">
+        <h1 class="display-6 ms-4 white font-size">Categorias destacadas</h1>
+        <article class="container-fluid">
+          <div id="carousel-categorias" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/terror.png"
+                          class="card-img"
+                          alt="Portada categoria terror"
+                        />
+
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Terror</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/documentales.png"
+                          class="card-img"
+                          alt="Portada categoria documentales"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Documentales</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/ciencia-ficcion.png"
+                          class="card-img"
+                          alt="Portada categoria ciencia ficcion"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Ciencia ficcion</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/historia.png"
+                          class="card-img"
+                          alt="Portada categoria historiar"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Historia</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/romanticas.png"
+                          class="card-img"
+                          alt="Portada categoria romance"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Romanticas</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/suspenso.png"
+                          class="card-img"
+                          alt="Portada categoria suspenso"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Suspenso</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <a href="pages/error-404.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/accion.png"
+                          class="card-img"
+                          alt="Portada categoria accion"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Accion</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/categoria-drama.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/drama.png"
+                          class="card-img"
+                          alt="Portada categoria drama"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Drama</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="pages/categoria.html">
+                      <div
+                        class="card text-bg-dark card-categorias mx-2 item-card"
+                      >
+                        <img
+                          src="img-correcion/slider-categorias/comedia.png"
+                          class="card-img"
+                          alt="Portada categoria comedia"
+                        />
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Comedia</h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-categorias"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-categorias"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Carousel suscripcion-->
+      <section
+        id="carousel-suscripcion"
+        class="carousel slide box-shadow"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner banner-suscripcion-tamanio">
+          <div class="carousel-item active">
+            <a href="pages/suscripcion.html">
+              <img
+                src="img/slider-suscripcion/popcorn-banner3.png"
+                class="d-block w-100 carousel-responsive-suscripcion object-fit-md-contain object-fit-lg-contain"
+                alt="Slider suscripcion"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="pages/suscripcion.html">
+              <img
+                src="./img/slider-suscripcion/popcorn-banner4.png"
+                class="d-block w-100 carousel-responsive-suscripcion object-fit-md-contain object-fit-lg-contain"
+                alt="Slider suscripcion"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="pages/suscripcion.html">
+              <img
+                src="./img/slider-suscripcion/popcorn-banner2.png"
+                class="d-block w-100 carousel-responsive-suscripcion object-fit-md-contain object-fit-lg-contain"
+                alt="Slider suscripcion"
+              />
+            </a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-suscripcion"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-suscripcion"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <!--Seccion de niños dispositivos pequeños-->
+      <section class="my-5 d-md-none d-md-block">
+        <h2 class="display-6 ms-4 white font-size">Para niños</h2>
+        <article class="container-fluid">
+          <div id="carousel-niños-sm" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/buzz.png"
+                    class="card-img-top"
+                    alt="Portada Buzz"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/elemental.png"
+                    class="card-img-top"
+                    alt="Portada elemental"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/gato-con-botas.png"
+                    class="card-img-top"
+                    alt="Portada gato con botas"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/los-increibles.png"
+                    class="card-img-top"
+                    alt="Portada los increibles"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/mario-bros.png"
+                    class="card-img-top"
+                    alt="Portada Mario bross"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/migration.png"
+                    class="card-img-top"
+                    alt="Portada migration"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/sea-beast.png"
+                    class="card-img-top"
+                    alt="Portada sea beast"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/sonic.png"
+                    class="card-img-top"
+                    alt="Portada Sonic"
+                  />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="pages/error-404.html">
+                  <img
+                    src="img-correcion/infantil/spiderman.png"
+                    class="card-img-top"
+                    alt="Portada spiderman"
+                  />
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-niños-sm"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-niños-sm"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <!--Seccion de niños dispositivos medianos y grandes-->
+      <section class="my-5 d-none d-sm-block">
+        <h2 class="display-6 ms-4 white font-size">Para niños</h2>
+        <article class="container-fluid">
+          <div id="carousel-niños" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/buzz.png"
+                          class="card-img-top"
+                          alt="Portada buzz"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/elemental.png"
+                          class="card-img-top"
+                          alt="Portada Elemental"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/gato-con-botas.png"
+                          class="card-img-top"
+                          alt="Portada gato con botas"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/los-increibles.png"
+                          class="card-img-top"
+                          alt="Portda los increibles"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/mario-bros.png"
+                          class="card-img-top"
+                          alt="Portada mario bros"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/migration.png"
+                          class="card-img-top"
+                          alt="Portada migration"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/sea-beast.png"
+                          class="card-img-top"
+                          alt="Portada sea best"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/sonic.png"
+                          class="card-img-top"
+                          alt="Portada sonic"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 mx-2 item-card">
+                      <a href="pages/error-404.html">
+                        <img
+                          src="img-correcion/infantil/spiderman.png"
+                          class="card-img-top"
+                          alt="Portada spiderman"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-niños"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-niños"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <!--Boton "Ver mas"-->
+        <article class="mt-2 text-end container-fluid">
+          <a
+            href="pages/error-404.html"
+            class="link-primary me-2 text-decoration-none text-info-emphasis"
+            >Ver más</a
+          >
+        </article>
+      </section>
+      <div class="text-center my-4 volver-arriba-hover">
+        <a href="#" class="text-decoration-none volver-arriba-color"
+          >Volver arriba<i class="bi bi-chevron-compact-up mx-1"></i
+        ></a>
+      </div>
+    </main>
+    <footer class="footer-bg-color">
+      <article class="container-fluid redes-sociales-bg text-center fs-4 p-3">
+        <div class="container d-flex justify-content-around redes-sociales-w">
+          <a
+            href="pages/error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="pages/error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="pages/error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+          <a
+            href="pages/error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a
+            href="pages/error-404.html"
+            class="text-decoration-none text-light redes-iconos-hover"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </article>
+      <section class="container">
+        <article class="row align-items-center my-4">
+          <aside class="col-lg-4 my-md-5">
+            <div class="text-center">
+              <img
+                src="img/logo-popcorn.png"
+                alt="logo de RollCode Video"
+                class="w-100 h-auto m-0"
+              />
+            </div>
+          </aside>
+          <aside class="col-md-6 col-lg-4 text-center">
+            <ul class="p-0">
+              <li>
+                <a
+                  href="pages/sobre-nosotros.html"
+                  class="text-decoration-none text-secondary"
+                  >¿Quienes Somos?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="pages/error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="pages/error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Politicas de privacidad</a
+                >
+              </li>
+            </ul>
+          </aside>
+          <aside class="col-md-6 col-lg-4 text-center">
+            <ul class="p-0">
+              <li>
+                <a
+                  href="pages/contacto.html"
+                  class="text-decoration-none text-secondary"
+                  >¿Tenes dudas? Contactanos!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="pages/error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Politicas de cookies</a
+                >
+              </li>
+              <li>
+                <a
+                  href="pages/error-404.html"
+                  class="text-decoration-none text-secondary"
+                  >Trabajá con nosotros</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </article>
+        <hr class="text-secondary fs-5" />
+        <p class="text-center text-secondary">
+          Popcorn&copy; Todos los derechos reservados
+        </p>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
