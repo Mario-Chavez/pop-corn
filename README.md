@@ -8,7 +8,7 @@ Este poyecto es una pagina web de streaming fue realizado en [Bootstrap v5.2](ht
 -   La serie desarrollada es la de Los anillos del poder.
 -   La peliculas desarrollada es 22 Jump Street.
 
-###Capturas de Pantallas:
+### Capturas de Pantallas:
 
 > Mobile
 
